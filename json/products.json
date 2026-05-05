@@ -1,0 +1,374 @@
+[
+    {
+        "name": "גלידה אמריקאית משובחת",
+        "src": "../image/AmericanIceCream/americanIceCream1.jpg",
+        "price": 15,
+        "category": "גלידה אמריקאית",
+        "amount": 0,
+        "id": 0
+    },
+    {
+        "name": "אספרסו שוקולד",
+        "src": "../image/iceCream/אספרסו-שוקולד-פאדג׳-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 1
+    },
+    {
+        "name": "וניל איטלקי",
+        "src": "../image/iceCream/וניל-איטלקי-2-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 2
+    },
+    {
+        "name": "וניל שוקולד ציפס",
+        "src": "../image/iceCream/וניל-שוקולד-צ׳יפ-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 3
+    },
+    {
+        "name": "חמאת בוטנים ובראוניז",
+        "src": "../image/iceCream/חמאת-בוטנים-ובראוניז-2-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 4
+    },
+    {
+        "name": "טופי קרמל ואגוזי לוז",
+        "src": "../image/iceCream/טופי-קרמל-ואגוזי-לוז-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 5
+    },
+    {
+        "name": "טריפל שוקולד",
+        "src": "../image/iceCream/טריפל-שוקולד-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 6
+    },
+    {
+        "name": "מנטה ציפס",
+        "src": "../image/iceCream/מנטה-צ׳יפ-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 7
+    },
+    {
+        "name": "מסטיק",
+        "src": "../image/iceCream/מסטיק-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 8
+    },
+    {
+        "name": "מרשמלו",
+        "src": "../image/iceCream/מרשמלו-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 9
+    },
+    {
+        "name": "סורבה מנגו",
+        "src": "../image/iceCream/סורבה-מנגו-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 10
+    },
+    {
+        "name": "סורבה פירות יער",
+        "src": "../image/iceCream/סורבה-פירות-יער-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 11
+    },
+    {
+        "name": "סורבה פסיפלורה",
+        "src": "../image/iceCream/סורבה-פסיפלורה-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 12
+    },
+    {
+        "name": "סורבה תות",
+        "src": "../image/iceCream/סורבה-תות-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 13
+    },
+    {
+        "name": " עוגת גבינה ניו יור ",
+        "src": "../image/iceCream/עוגת-גבינה-ניו-יורקית-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 14
+    },
+    {
+        "name": "פיסטוק",
+        "src": "../image/iceCream/פיסטוק-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 15
+    },
+    {
+        "name": "פקאן סיני",
+        "src": "../image/iceCream/פקאן-סיני-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 16
+    },
+    {
+        "name": "פררו רושה",
+        "src": "../image/iceCream/פררו-רושה-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 17
+    },
+    {
+        "name": "פררו רושה פרווה",
+        "src": "../image/iceCream/פררו-רושה-פרווה-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 18
+    },
+    {
+        "name": "קינדרו בואנו",
+        "src": "../image/iceCream/קינדר-בואנו-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 19
+    },
+    {
+        "name": "קרמל פרעצל",
+        "src": "../image/iceCream/קרמל-פרעצל-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 20
+    },
+    {
+        "name": "קרם עוגיות אוראו",
+        "src": "../image/iceCream/קרם-עוגיות-אוריאו-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 21
+    },
+    {
+        "name": "קרם עוגיות לוטוס",
+        "src": "../image/iceCream/קרם-עוגיות-לוטוס-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 22
+    },
+    {
+        "name": "קרם עוגיות פרווה",
+        "src": "../image/iceCream/קרם-עוגיות-פרווה-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 23
+    },
+    {
+        "name": "רום צימוקים",
+        "src": "../image/iceCream/רום-צימוקים-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 24
+    },
+    {
+        "name": "ריבת חלב",
+        "src": "../image/iceCream/ריבת-חלב-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 25
+    },
+    {
+        "name": "רפאלו",
+        "src": "../image/iceCream/רפאלו-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 26
+    },
+    {
+        "name": "שוקולד בייגלה",
+        "src": "../image/iceCream/שוקולד-בייגלה-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 27
+    },
+    {
+        "name": "שוקולד בלגי",
+        "src": "../image/iceCream/שוקולד-בלגי-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 28
+    },
+    {
+        "name": "שוקולד מריר",
+        "src": "../image/iceCream/שוקולד-מריר-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 29
+    },
+    {
+        "name": "תות בננה",
+        "src": "../image/iceCream/תות-בננה-2-1536x1536.jpg",
+        "price": 5,
+        "category": "גלידה",
+        "id": 30
+    },
+    {
+        "name": "אייס קפוצינו",
+        "src": "../image/iceCoffee/iceCoffee2.jpg",
+        "price": 12,
+        "category": "אייסים",
+        "id": 31
+    },
+    {
+        "name": "אייס גרניטה פקאן",
+        "src": "../image/iceCoffee/iceCoffee2.jpg",
+        "price": 15,
+        "category": "אייסים",
+        "id": 32
+    },
+    {
+        "name": "אייס קצפת",
+        "src": "../image/iceCoffee/iceCoffee2.jpg",
+        "price": 10,
+        "category": "אייסים",
+        "id": 33
+    },
+    {
+        "name": "אייס קפה קר בינוני",
+        "src": "../image/iceCoffee/אייס3 (2).jpg",
+        "price": 12,
+        "category": "אייסים",
+        "id": 34
+    },
+    {
+        "name": "יוגורט טבעי",
+        "src": "../image/yogurt/יוגורט-טבעי-1536x1536.jpg",
+        "price": 20,
+        "category": "יוגורט",
+        "id": 35
+    },
+    {
+        "name": "פרוזן יוגורט",
+        "src": "../image/yogurt/פרוזן-יוגורט-1536x1536.jpg",
+        "price": 25,
+        "category": "יוגורט",
+        "id": 36
+    },
+    {
+        "name": "וופל בלגי",
+        "src": "../image/קינוחים חמים/וופל-בלגי-1536x1536.jpg",
+        "price": 30,
+        "category": "קינוחים חמים",
+        "id": 37
+    },
+    {
+        "name": "קרפ צרפתי",
+        "src": "../image/קינוחים חמים/קרפ-צרפתי-1536x1536.jpg",
+        "price": 28,
+        "category": "קינוחים חמים",
+        "id": 38
+    },
+    {
+        "name": "מילקשייק",
+        "src": "../image/שייקים/מילקשייקים-1536x1536.jpg",
+        "price": 15,
+        "category": "שייקים",
+        "id": 39
+    },
+    {
+        "name": "שייק פירות",
+        "src": "../image/שייקים/שייק-פירות-1536x1536.jpg",
+        "price": 18,
+        "category": "שייקים",
+        "id": 40
+    },
+    {
+        "name": "אמריקנו",
+        "src": "../image/שתייה חמה/אמריקנו-1536x1536.jpg",
+        "price": 10,
+        "category": "שתיה חמה",
+        "id": 41
+    },
+    {
+        "name": "אספרסו",
+        "src": "../image/שתייה חמה/אספרסו-1536x1536.jpg",
+        "price": 15,
+        "category": "שתיה חמה",
+        "id": 42
+    },
+    {
+        "name": "אפוגטו",
+        "src": "../image/שתייה חמה/אפוגטו-1536x1536.jpg",
+        "price": 20,
+        "category": "שתיה חמה",
+        "id": 43
+    },
+    {
+        "name": "הפוך-קטן-זכוכית",
+        "src": "../image/שתייה חמה/הפוך-קטן-זכוכית-1536x1536.jpg",
+        "price": 20,
+        "category": "שתיה חמה",
+        "id": 44
+    },
+    {
+        "name": "נס-על-חלב-קטן-זכוכית",
+        "src": "../image/שתייה חמה/נס-על-חלב-קטן-זכוכית-1536x1536.jpg",
+        "price": 30,
+        "category": "שתיה חמה",
+        "id": 45
+    },
+    {
+        "name": "סחלב",
+        "src": "../image/שתייה חמה/סחלב-1536x1536.jpg",
+        "price": 35,
+        "category": "שתיה חמה",
+        "id": 46
+    },
+    {
+        "name": "סיידר-חם",
+        "src": "../image/שתייה חמה/סיידר-חם-1536x1536.jpg",
+        "price": 35,
+        "category": "שתיה חמה",
+        "id": 47
+    },
+    {
+        "name": "צ׳אי-לאטה",
+        "src": "../image/שתייה חמה/צ׳אי-לאטה-1536x1536.jpg",
+        "price": 30,
+        "category": "שתיה חמה",
+        "id": 48
+    },
+    {
+        "name": "קפוצ׳ינו-גדול",
+        "src": "../image/שתייה חמה/קפוצ׳ינו-גדול-1536x1536.jpg",
+        "price": 20,
+        "category": "שתיה חמה",
+        "id": 49
+    },
+    {
+        "name": "שוקו-חם-עם-מקופלת",
+        "src": "../image/שתייה חמה/שוקו-חם-עם-מקופלת-1536x1536.jpg",
+        "price": 20,
+        "category": "שתיה חמה",
+        "id": 50
+    },
+    {
+        "name": "שוקוצ׳ינו",
+        "src": "../image/שתייה חמה/שוקוצ׳ינו-1536x1536.jpg",
+        "price": 25,
+        "category": "שתיה חמה",
+        "id": 51
+    },
+    {
+        "name": "תה-בטעמים",
+        "src": "../image/שתייה חמה/תה-בטעמים-1536x1536.jpg",
+        "price": 20,
+        "category": "warmDrink",
+        "id": 52
+    }
+]

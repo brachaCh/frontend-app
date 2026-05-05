@@ -1,0 +1,166 @@
+/* סרגל ניווט */
+body {
+    width: 100vw;
+}
+
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #201212;
+    position: fixed;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    top: 0;
+    width: 100vw;
+    margin-bottom: 0.1%;
+    z-index: 99999999999999999;
+}
+
+#li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+#logoNivut {
+    width: 10%;
+    height: 5%;
+    margin-left: 50vw;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+#li a:hover {
+    background-color: rgb(35, 11, 16);
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#basketLi {
+    width: 4%;
+    height: 4%;
+}
+
+#imgBasket {
+    width: 100%;
+}
+
+#link {
+    height: 50%;
+    width: 50%;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Futurism", Sans-serif;
+}
+
+/* <!-- סוף סרגל ניווט--> */
+
+/* פוטר */
+
+#divTzorKesher {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    direction: rtl;
+    position: fixed;
+    bottom: 3%;
+    background-color: white;
+}
+
+#tzorKesher {
+    font-size: 150%;
+    margin-top: 1.7%;
+    margin-right: 17%;
+    margin-left: 5%;
+    font-family: "Trebuchet MS", Sans-serif;
+    width: 7%;
+}
+
+#phone {
+    font-size: 150%;
+    margin-top: 2%;
+    color: black;
+    width: 10%;
+    font-family: "Trebuchet MS", Sans-serif;
+}
+
+#email {
+    font-size: 150%;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-left: 5%;
+    color: black;
+    font-family: "Trebuchet MS", Sans-serif;
+}
+
+#logo {
+    width: 7%;
+    height: 90%;
+    margin: 2%;
+    margin-bottom: 120%;
+    margin-top: 0.3%;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3vh;
+    background-color: #B0DDEB;
+    position: fixed;
+    bottom: 0;
+}
+
+#textFooter {
+    direction: rtl;
+    font-family: "Trebuchet MS", Sans-serif;
+    font-size: small;
+    font-weight: bolder;
+}
+
+#iconPhone {
+    width: 2%;
+    height: 50%;
+    margin-top: 1.5%;
+}
+
+#iconEmail {
+    width: 2%;
+    height: 35%;
+    margin-top: 2%;
+    margin-right: 3.2%;
+}
+
+#clock {
+    width: 3%;
+    height: 7%;
+    margin-top: 1.1%;
+    margin-left: 0.5%;
+}
+
+#telephon {
+    width: 2%;
+    height: 5%;
+    margin-top: 1.1%;
+    margin-left: 0.5%;
+}
+
+/* סוף פוטר */

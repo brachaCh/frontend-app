@@ -1,0 +1,188 @@
+#buttonToBasket {
+  margin-top: 5%;
+}
+
+#divButtons {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  direction: rtl;
+}
+
+/*start buttons */
+
+.btn {
+  height: 10vh;
+  position: relative;
+  font-family: "Trebuchet MS", Sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-weight: 500;
+  color: black;
+  background-color: #f8d8e4;
+  margin: 1%;
+  margin-top: 4%;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+
+}
+
+.btn::after {
+  background-color: #fff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+/*end buttons */
+
+#productOrder {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  background-image: url("../image/372067189_753136766823170_8835232450683169407_nfull.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: #c6c6c6;
+  opacity: 90%;
+  font-family: "Futurism", Sans-serif;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 0.9em;
+  text-shadow: 0px 0px 11px #912F00;
+  mix-blend-mode: screen;
+}
+
+#textTitle {
+  color: white;
+  font-family: "Futurism", Sans-serif;
+  font-size: 400%;
+  font-weight: 600;
+  line-height: 0.19em;
+  border-color: #912F00 !important;
+  mix-blend-mode: screen;
+}
+
+/* עיצוב כרטיסים */
+
+#productsOrder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.card {
+  position: relative;
+  width: 11.875em;
+  height: 16.5em;
+  box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 120ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 0.5em;
+  padding-bottom: 3.4em;
+  margin: 2%;
+}
+
+.card::after {
+  content: "Add to Basket";
+  padding-top: 1.25em;
+  padding-left: 1.25em;
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  background: #fcd8e6;
+  color: #fff;
+  height: 2.5em;
+  width: 90%;
+  transition: all 80ms;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.card .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 1.875em;
+  font-weight: 400;
+  color: #000;
+}
+
+.card .price {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 0.625em;
+  color: #000;
+}
+
+.card:hover::after {
+  bottom: 0;
+  opacity: 1;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.card:active::after {
+  content: "Added !";
+  border: #f70e64;
+  height: 3.125em;
+}
+
+.text {
+  max-width: 55px;
+}
+
+.image {
+  background: rgb(241, 241, 241);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border: #f70e64;
+}

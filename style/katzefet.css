@@ -1,0 +1,12 @@
+#divKatzefet {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FCB2CE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logo {
+    width: 20%;
+}

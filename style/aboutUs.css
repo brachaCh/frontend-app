@@ -1,0 +1,59 @@
+#ourStory {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://katsefet.co.il/wp-content/uploads/2024/02/A919wth1t_fqz2ih_uo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#textOurStores {
+  padding: 2%;
+  padding-top: 10%;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  opacity: 50%;
+}
+
+p {
+  font-size: larger;
+  font-family: "Futurism", Sans-serif;
+  opacity: 100% !important;
+  border: 1%;
+}
+
+h2 {
+  font-family: "Futurism", Sans-serif;
+  opacity: 100% !important;
+}
+
+h1 {
+  color: #c6c6c6;
+  opacity: 90%;
+  font-family: "Futurism", Sans-serif;
+  font-size: 170px;
+  font-weight: 600;
+  line-height: 0.9em;
+  text-shadow: 0px 0px 11px #912F00;
+  mix-blend-mode: screen;
+  margin-bottom: 10%;
+}
+
+#divOurStory {
+  width: 50%;
+  text-align: center;
+}
+
+#labelOurStory {
+  color: white;
+  font-family: "Futurism", Sans-serif;
+  font-size: 400%;
+  font-weight: 600;
+  line-height: 0.19em;
+  border-color: #912F00 !important;
+  mix-blend-mode: screen;
+}

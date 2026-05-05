@@ -1,0 +1,201 @@
+#basket {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../image/372966538_753134800156700_1867260139650861640_nfull.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: #c6c6c6;
+  opacity: 90%;
+  font-family: "Futurism", Sans-serif;
+  font-size: 170px;
+  font-weight: 600;
+  line-height: 0.9em;
+  text-shadow: 0px 0px 11px #912F00;
+  mix-blend-mode: screen;
+  margin-bottom: 10%;
+}
+
+#textTitle {
+  color: white;
+  font-family: "Futurism", Sans-serif;
+  font-size: 400%;
+  font-weight: 600;
+  line-height: 0.19em;
+  border-color: #912F00 !important;
+  mix-blend-mode: screen;
+}
+
+#divHello {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 45%;
+  font-family: "Futurism", Sans-serif;
+}
+
+#empty {
+  font-family: "Futurism", Sans-serif;
+  font-size: 150%;
+  width: 100%;
+  height: 15vh;
+  margin-left: 45%;
+}
+
+#divBasket {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#div_Pay {
+  margin: 4%;
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  font-family: "Futurism", Sans-serif;
+}
+
+.nameUser {
+  font-size: 250%;
+  margin-top: 7%;
+}
+
+/* עיצוב כרטיסים */
+.card {
+  align-items: center;
+  position: relative;
+  width: 11.875em;
+  height: 16.5em;
+  box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 120ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 0.5em;
+  padding-bottom: 5em;
+  margin: 0.5%;
+}
+
+.card::after {
+  content: "delete from Basket";
+  padding-top: 1.25em;
+  padding-left: 1.25em;
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  background: #fcd8e6;
+  color: #fff;
+  height: 2.5em;
+  width: 90%;
+  transition: all 80ms;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0;
+  text-align: center;
+}
+
+.card .title {
+  font-family: "Futurism", Sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 1.875em;
+  font-weight: 400;
+  color: #000;
+}
+
+.card .price {
+  font-family: "Futurism", Sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 0.625em;
+  color: #000;
+}
+
+.card:hover::after {
+  bottom: 0;
+  opacity: 1;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.card:active::after {
+  content: "delete !";
+  border: #f70e64;
+  height: 3.125em;
+}
+
+.text {
+  max-width: 55px;
+}
+
+.image {
+  background: rgb(241, 241, 241);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border: #f70e64;
+
+}
+
+/* עיצוב הכפתור */
+.Btn {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  margin-top: 10%;
+  margin-bottom: 30%;
+  margin-left: 20%;
+}
+
+.svgIcon {
+  width: 16px;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.Btn::before {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.Btn:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%, -50%);
+  border-radius: 0;
+}
+
+.Btn:active {
+  transform: translate(5px, 5px);
+  transition-duration: .3s;
+}
